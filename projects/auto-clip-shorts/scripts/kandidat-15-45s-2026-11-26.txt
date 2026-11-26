@@ -1,0 +1,92 @@
+KANDIDAT KLIP 15-45 DETIK — GTA VI Windah Basudara Gameplay #4
+Sumber: YouTube 03qhcshfeMY "JASON DAN LUCIA DI FITNAH DEG DEGAN BANGET.... Grand Theft Auto VI GAMEPLAY #4" (03:52:24)
+Dianalisis 26 Nov 2026 dari caption lokal ~/workspace/gta6_clips/caps.id.srt (3.757 cue). TANPA download/render.
+Segmen lama yang dihindari: Part 1 03:05:20-03:06:41, Part 2 03:37:25-03:39:09, Part 3 03:40:09-03:41:45, Part 4 03:42:50-03:44:40.
+
+METODE SKOR (ringkas):
+Skrip python3 mem-parse caps.id.srt, memberi skor emosi per cue (tanda seru, kata kapital panjang,
+kata reaksi/emosi berbobot: anjir, astaga, mati, kabur, lari, tolong, hampir, polisi, tembak,
+wkwk/haha, nabrak, gila, ayo, dll., pengulangan kata, huruf dipanjangkan), lalu menjumlahkannya
+dalam jendela geser 20/30/45 detik (langkah 5 detik) ditambah bonus kepadatan cue dan kecepatan
+bicara (kata/detik). Jendela yang tumpang tindih dengan Part 1-4 dibuang. Hasil skor tertinggi
+lalu dibaca konteksnya manual (+/-20 detik) dan dipilih yang punya awal-akhir cerita masuk akal,
+tersebar sepanjang video, dan bukan sekadar rant ke live chat.
+
+KETERBATASAN:
+- Caption adalah auto-caption YouTube Bahasa Indonesia: bisa salah kata/nama (mis. "Luia" untuk Lucia,
+  "Sherle", "Ining"), dan tanda "[berteriak]"/"[tertawa]" hanya penanda kasar.
+- Momen visual murni tanpa reaksi verbal (jumpscare diam, aksi tanpa komentar) bisa terlewat.
+- Skor teks tidak bisa memastikan isi visual; timestamp adalah titik awal-akhir berbasis caption,
+  tetap perlu cek frame saat render nanti.
+
+====================================================================
+
+1. [Lucu] 00:19:24-00:20:02 (38 detik)
+   Judul hook: "Ampun Bang, Jangan Bunuh!"
+   Ringkasan: Windah menembaki hewan yang mengganggu paket lalu mengampuni NPC yang memohon-mohon,
+   kemudian memecahkan misteri buaya dan membanggakan diri tidak membunuhnya karena "pencinta hewan".
+   Kutipan kunci: "Bang, Bang, udah, Bang. Bang, udah, Bang. Please, Bang. Ampun, Bang."
+   Kutipan kunci: "Gak gua kill guys. Gak gua kill. Ya gua pencinta hewan, coy."
+
+2. [Menegangkan] 00:22:14-00:22:56 (42 detik)
+   Judul hook: "Hampir Mati Ditembakin!"
+   Ringkasan: Karakter perempuan NPC mengamuk dan menembaki Windah sampai nyawanya tinggal setengah;
+   Windah panik menyadari dirinya hampir mati di tengah baku tembak.
+   Kutipan kunci: "Ining gua hampir mati, gua ditembakin babi."
+   Kutipan kunci: "Hmm, udah tinggal setengah, man."
+
+3. [Lucu] 00:37:07-00:37:52 (45 detik)
+   Judul hook: "Udah Jatuh, Ditabrak Motor!"
+   Ringkasan: Windah berteriak saat karakternya jatuh, buru-buru minta maaf dan menolong demi "good
+   ending", lalu justru ditabrak motor yang lewat begitu saja.
+   Kutipan kunci: "Oh [ __ ] [berteriak] Aw. Wah, jatuh dia, Guys."
+   Kutipan kunci: "kenapa ada motor nabrak gua anjir? Hell."
+
+4. [Menegangkan] 00:48:12-00:48:56 (44 detik)
+   Judul hook: "Dibegal Pas Kabur dari Polisi!"
+   Ringkasan: Sambil looting dan menghindari polisi, mobil Windah rusak mencong ke kiri dan ia kena
+   begal; ia putar balik mengejar mobil berisi 200 dolar sambil memastikan sudah jauh dari polisi.
+   Kutipan kunci: "Apa coba? Dibegal anjir. Dibegal gua man."
+   Kutipan kunci: "Yang penting udah, udah jauh dari polisi ya."
+
+5. [Lucu] 01:01:16-01:01:56 (40 detik)
+   Judul hook: "Disesatin Bocil Lompat!"
+   Ringkasan: Di misi pesawat, live chat menyuruh lompat padahal instruksinya escort/mendarat;
+   Windah sadar ditroll bocil dan ngamuk karena tidak ada instruksi lompat sama sekali.
+   Kutipan kunci: "Oh, dia yang mendarat anjing. Gua disesatin bocil. Bocil lompat."
+   Kutipan kunci: "Gak ada instruksi lompat anjir."
+
+6. [Menegangkan] 01:40:02-01:40:44 (42 detik)
+   Judul hook: "M4 Hilang, Lori Diculik!"
+   Ringkasan: Sambil menerbangkan helikopter mengejar truk yang menculik Lori, Windah mau menolong
+   pakai M4-nya tapi senjatanya hilang, lalu panik menghindari pohon sawit.
+   Kutipan kunci: "Tenang, tenang, tenang. Gua tolong, gua tolong, gua tolong pakai M4 gua. M4 gua hilang. Kocak."
+   Kutipan kunci: "Anjing gua lagi nyetir helikopter ini. Awas nabrak pohon, boy."
+
+7. [Seru] 01:43:59-01:44:43 (44 detik)
+   Judul hook: "Lompat Epic Kena Kipas!"
+   Ringkasan: Windah lompat dengan teriakan epic, lalu kena kipas helikopter secara brutal dan
+   langsung mengomentari betapa brutalnya momen itu.
+   Kutipan kunci: "Oke. Oke. Gua lompat. Gua lompat. Epic [berteriak]"
+   Kutipan kunci: "Anjir brutal banget tadi kena kipasnya, Man."
+
+8. [Menegangkan] 03:11:41-03:12:16 (35 detik)
+   Judul hook: "Bintang 4, Darah Tinggal Dikit!"
+   Ringkasan: Di tengah kejar-kejaran, wanted level naik ke bintang empat; Windah merayakan jadi
+   "orang pertama bintang empat" sambil darah karakternya menipis.
+   Kutipan kunci: "Anjay bintang empat, Bro. Orang pertama bintang empat gak?"
+   Kutipan kunci: "Gila orang pertama bintang empat gak anjir kok namanya dikit darahnya."
+
+9. [Seru] 03:16:03-03:16:47 (44 detik)
+   Judul hook: "Rumah Dihancurin, Ular Gua?!"
+   Ringkasan: Saat mau pindahan, Windah panik memikirkan ular peliharaannya, berteriak, lalu sadar
+   rumahnya sudah dihancurkan dan bertanya apakah ularnya ikut dibunuh.
+   Kutipan kunci: "Aduh, ularnya gimana? Ularnya mau diba juga gak? Kita mau pindahan, guys."
+   Kutipan kunci: "Rumahnya udah dihancurin, ular gua dibunuh kah?"
+
+10. [Lucu] 03:32:57-03:33:41 (44 detik)
+    Judul hook: "Hampir Nembak Suster!"
+    Ringkasan: Di rumah sakit, Windah refleks hampir menembak suster yang lewat, lalu suasana
+    kembali ramai dengan polisi mendekat dan ia mengaku takut menembak orang.
+    Kutipan kunci: "Oke. Hampir gua nembak. Hampir gua nembak suster, Bro."
+    Kutipan kunci: "polisi please don't don't don't" (cue 03:33:43, tepat setelah akhir klip)

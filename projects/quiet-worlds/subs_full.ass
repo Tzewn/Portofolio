@@ -1,0 +1,90 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Noto Sans,54,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,4,1,2,60,60,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.02,Sub,,0,0,0,,Empat planet.
+Dialogue: 0,0:00:01.02,0:00:02.04,Sub,,0,0,0,,Satu tahun.
+Dialogue: 0,0:00:02.04,0:00:03.06,Sub,,0,0,0,,Satu pilihan.
+Dialogue: 0,0:00:03.06,0:00:07.15,Sub,,0,0,0,,Kalau kamu harus meninggalkan Bumi\Ndan bertahan hidup
+Dialogue: 0,0:00:07.15,0:00:11.24,Sub,,0,0,0,,selama satu tahun penuh di planet\Nasing, planet
+Dialogue: 0,0:00:11.24,0:00:13.79,Sub,,0,0,0,,mana yang akan kamu pilih?
+Dialogue: 0,0:00:13.79,0:00:17.88,Sub,,0,0,0,,Hari ini kita akan mengunjungi\Nempat planet yang
+Dialogue: 0,0:00:17.88,0:00:18.90,Sub,,0,0,0,,sangat berbeda.
+Dialogue: 0,0:00:18.90,0:00:22.48,Sub,,0,0,0,,Masing-masing punya keindahan\Nsendiri, dan masalahnya sendiri.
+Dialogue: 0,0:00:22.48,0:00:26.56,Sub,,0,0,0,,Dengarkan baik-baik, karena di\Nakhir kamu harus memilih.
+Dialogue: 0,0:00:26.56,0:00:28.44,Sub,,0,0,0,,Planet pertama: Planet Koala.
+Dialogue: 0,0:00:28.44,0:00:32.18,Sub,,0,0,0,,Dunia hijau yang hampir selalu\Ndiguyur hujan lembut,
+Dialogue: 0,0:00:32.18,0:00:34.52,Sub,,0,0,0,,dipenuhi hutan eukaliptus yang\Nlebat.
+Dialogue: 0,0:00:34.52,0:00:38.26,Sub,,0,0,0,,Di tengah hutan itu berdiri sebuah\Nkabin kayu
+Dialogue: 0,0:00:38.26,0:00:42.01,Sub,,0,0,0,,kecil, dan kabin itulah yang akan\Nmenjadi rumahmu
+Dialogue: 0,0:00:42.01,0:00:43.41,Sub,,0,0,0,,selama satu tahun.
+Dialogue: 0,0:00:43.41,0:00:44.82,Sub,,0,0,0,,Kedengarannya damai, kan?
+Dialogue: 0,0:00:44.82,0:00:46.22,Sub,,0,0,0,,Tapi tunggu dulu.
+Dialogue: 0,0:00:46.22,0:00:48.09,Sub,,0,0,0,,Planet ini dipenuhi koala.
+Dialogue: 0,0:00:48.09,0:00:51.84,Sub,,0,0,0,,Mereka tidur di dahan pohon, di\Nteras kabin,
+Dialogue: 0,0:00:51.84,0:00:53.24,Sub,,0,0,0,,bahkan di kasurmu.
+Dialogue: 0,0:00:53.24,0:00:56.98,Sub,,0,0,0,,Fakta uniknya, sidik jari koala\Nsangat mirip dengan
+Dialogue: 0,0:00:56.98,0:00:58.39,Sub,,0,0,0,,sidik jari manusia.
+Dialogue: 0,0:00:58.39,0:01:02.13,Sub,,0,0,0,,Dan setiap malam, kamu akan\Nterlelap ditemani suara
+Dialogue: 0,0:01:02.13,0:01:04.47,Sub,,0,0,0,,dengkuran koala dari segala arah.
+Dialogue: 0,0:01:04.47,0:01:08.22,Sub,,0,0,0,,Kabar baiknya, planet ini aman dan\Npersediaannya melimpah.
+Dialogue: 0,0:01:08.22,0:01:11.96,Sub,,0,0,0,,Tingkat bahayanya cuma satu dari\Nlima, dan persediaannya
+Dialogue: 0,0:01:11.96,0:01:13.36,Sub,,0,0,0,,empat dari lima.
+Dialogue: 0,0:01:13.36,0:01:15.45,Sub,,0,0,0,,Planet kedua: Planet Glowworm.
+Dialogue: 0,0:01:15.45,0:01:19.10,Sub,,0,0,0,,Di planet ini, matahari tidak\Npernah terbit.
+Dialogue: 0,0:01:19.10,0:01:23.27,Sub,,0,0,0,,Langitnya selalu gelap, tapi\Njangan bayangkan kegelapan yang
+Dialogue: 0,0:01:23.27,0:01:23.79,Sub,,0,0,0,,menakutkan.
+Dialogue: 0,0:01:23.79,0:01:27.96,Sub,,0,0,0,,Kamu akan berlayar dengan perahu\Nkecil di bawah
+Dialogue: 0,0:01:27.96,0:01:32.13,Sub,,0,0,0,,langit-langit raksasa yang\Ndipenuhi jutaan cahaya biru kecil
+Dialogue: 0,0:01:32.13,0:01:36.30,Sub,,0,0,0,,yang berkelap-kelip, seperti\Nbintang yang bisa kamu sentuh.
+Dialogue: 0,0:01:36.30,0:01:38.38,Sub,,0,0,0,,Pemandangannya luar biasa indah.
+Dialogue: 0,0:01:38.38,0:01:42.55,Sub,,0,0,0,,Tapi ada satu masalah besar: di\Nplanet ini,
+Dialogue: 0,0:01:42.55,0:01:45.16,Sub,,0,0,0,,kamu akan sangat, sangat lapar.
+Dialogue: 0,0:01:45.16,0:01:49.33,Sub,,0,0,0,,Makanan hampir tidak ada, dan\Ntubuhmu harus bertahan
+Dialogue: 0,0:01:49.33,0:01:51.93,Sub,,0,0,0,,dengan persediaan yang sangat\Nterbatas.
+Dialogue: 0,0:01:51.93,0:01:56.10,Sub,,0,0,0,,Tingkat bahayanya empat dari lima,\Ndan persediaannya cuma
+Dialogue: 0,0:01:56.10,0:01:57.67,Sub,,0,0,0,,dua dari lima.
+Dialogue: 0,0:01:57.67,0:01:59.45,Sub,,0,0,0,,Planet ketiga: Planet Puffin.
+Dialogue: 0,0:01:59.45,0:02:03.01,Sub,,0,0,0,,Sebuah pulau hijau yang subur,\Ndengan pondok kecil
+Dialogue: 0,0:02:03.01,0:02:06.12,Sub,,0,0,0,,yang berdiri di tepi tebing\Nmenghadap laut.
+Dialogue: 0,0:02:06.12,0:02:07.90,Sub,,0,0,0,,Pemandangannya seperti kartu pos.
+Dialogue: 0,0:02:07.90,0:02:11.46,Sub,,0,0,0,,Tapi pulau ini juga rumah bagi\Nsekitar lima
+Dialogue: 0,0:02:11.46,0:02:13.24,Sub,,0,0,0,,ratus ribu burung puffin.
+Dialogue: 0,0:02:13.24,0:02:16.80,Sub,,0,0,0,,Setiap hari, mereka menggali liang\Ndi tanah, termasuk
+Dialogue: 0,0:02:16.80,0:02:18.58,Sub,,0,0,0,,tepat di bawah pondokmu.
+Dialogue: 0,0:02:18.58,0:02:19.92,Sub,,0,0,0,,Awalnya terdengar lucu.
+Dialogue: 0,0:02:19.92,0:02:23.48,Sub,,0,0,0,,Tapi bayangkan hari ke dua ratus:\Nseekor puffin
+Dialogue: 0,0:02:23.48,0:02:26.15,Sub,,0,0,0,,tiba-tiba menembus lantai dapurmu\Ndari bawah.
+Dialogue: 0,0:02:26.15,0:02:29.71,Sub,,0,0,0,,Dan perlahan-lahan, pondokmu mulai\Nmiring ke arah laut
+Dialogue: 0,0:02:29.71,0:02:31.93,Sub,,0,0,0,,karena tanah di bawahnya kosong.
+Dialogue: 0,0:02:31.93,0:02:35.49,Sub,,0,0,0,,Tingkat bahayanya tiga dari lima,\Ndan persediaannya empat
+Dialogue: 0,0:02:35.49,0:02:36.38,Sub,,0,0,0,,dari lima.
+Dialogue: 0,0:02:36.38,0:02:38.14,Sub,,0,0,0,,Planet keempat: Planet Angsa.
+Dialogue: 0,0:02:38.14,0:02:41.65,Sub,,0,0,0,,Ladang oranye yang luas, sebuah\Nkolam yang tenang,
+Dialogue: 0,0:02:41.65,0:02:43.85,Sub,,0,0,0,,dan rumah kecil yang nyaman.
+Dialogue: 0,0:02:43.85,0:02:46.04,Sub,,0,0,0,,Seharusnya ini planet yang\Nsempurna.
+Dialogue: 0,0:02:46.04,0:02:49.56,Sub,,0,0,0,,Kecuali satu hal: ada sekitar\Nseratus ekor angsa
+Dialogue: 0,0:02:49.56,0:02:51.32,Sub,,0,0,0,,yang tinggal di sini.
+Dialogue: 0,0:02:51.32,0:02:54.83,Sub,,0,0,0,,Mereka berisik sepanjang malam,\Ndan mereka suka mengejar
+Dialogue: 0,0:02:54.83,0:02:57.46,Sub,,0,0,0,,apa pun yang bergerak, termasuk\Nkamu.
+Dialogue: 0,0:02:57.46,0:03:00.98,Sub,,0,0,0,,Tapi suatu malam, untuk pertama\Nkalinya, semuanya sunyi.
+Dialogue: 0,0:03:00.98,0:03:03.18,Sub,,0,0,0,,Tidak ada suara sama sekali.
+Dialogue: 0,0:03:03.18,0:03:05.81,Sub,,0,0,0,,Dan keesokan paginya, semua angsa\Nmenghilang.
+Dialogue: 0,0:03:05.81,0:03:09.33,Sub,,0,0,0,,Yang tersisa hanya jejak-jejak\Nkaki basah, dari kolam,
+Dialogue: 0,0:03:09.33,0:03:11.08,Sub,,0,0,0,,menuju ke dalam rumahmu.
+Dialogue: 0,0:03:11.08,0:03:14.60,Sub,,0,0,0,,Tingkat bahayanya lima dari lima,\Ndan persediaannya empat
+Dialogue: 0,0:03:14.60,0:03:15.48,Sub,,0,0,0,,dari lima.
+Dialogue: 0,0:03:15.48,0:03:17.65,Sub,,0,0,0,,Jadi, empat planet sudah kita\Nkunjungi.
+Dialogue: 0,0:03:17.65,0:03:20.54,Sub,,0,0,0,,Planet Koala yang damai, Planet\NGlowworm yang indah
+Dialogue: 0,0:03:20.54,0:03:23.43,Sub,,0,0,0,,tapi lapar, Planet Puffin yang\Nmiring, dan Planet
+Dialogue: 0,0:03:23.43,0:03:24.52,Sub,,0,0,0,,Angsa yang misterius.
+Dialogue: 0,0:03:24.52,0:03:27.41,Sub,,0,0,0,,Kalau kamu harus memilih satu\Nuntuk bertahan hidup
+Dialogue: 0,0:03:27.41,0:03:30.31,Sub,,0,0,0,,selama satu tahun, planet mana\Nyang kamu pilih?

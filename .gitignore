@@ -1,0 +1,27 @@
+# Media binaries (kept out of this repo on purpose)
+*.mp4
+*.mkv
+*.webm
+*.mp3
+*.m4a
+*.wav
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.ttf
+*.otf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Logs and local metadata
+*.log
+*.err
+meta*.json
+
+# OS / editor
+.DS_Store
+.vscode/

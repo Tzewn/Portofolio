@@ -1,0 +1,29 @@
+name: fast_vertical_shorts
+title: Fast Vertical Shorts
+description: Turn a long video into short vertical clips in the layout and subtitle style the user confirms, delivered as downloadable files in parts with a fast path that skips trivial checks.
+category: Media
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:7e0ed0e6-2c87-4454-9ef4-5ce88c9ea2a4
+  - message:bf0985d9-728a-4702-abd1-88654a1f2de5
+  - message:5b4d8295-06b2-4f30-9236-3f26137a3348
+  - message:assistant-msg-1a9c1562-7070-4521-bed3-ca58fea7ef3d
+  - message:assistant-msg-9d1eddd3-3cf4-4cec-b048-674cbf3717e8
+  - message:0207b66f-8eb5-4efe-a433-990eca87f010
+  - message:53f30e5f-b3b6-49c1-85de-2ef41f907e33
+  - message:assistant-msg-733750e6-97e1-49c9-895b-6fcdb8930133
+  - message:assistant-msg-b670d47d-c276-d47c-a127-c3938e111831
+  - runtime-child:5ea63a8c-d8b0-5b29-8c96-7145f7384e6b
+  - runtime-child:97bf1154-d864-54c0-bc8d-02617778ebee
+  measurement:
+    proxy_metric_id: shorts_task_completion_rate
+    success_criterion: Over the window, every long video shorts request delivers at least the first finished part in the same session in the layout and subtitle choice the user confirmed, no session retries a source fetch more than once after a timeout, a rate limit or an HTTP 403 response, and no user message corrects the style or asks to add or remove subtitles because the wrong default was used.
+    window_days: 14
+  needs_review: false
+  rationale: The existing skill covers planning from captions, fetching once, stopping after a timeout and delivering incrementally, and that held when a later batch stopped at its third part on a download timeout with subtitle files for the pending parts ready (message:assistant-msg-733750e6-97e1-49c9-895b-6fcdb8930133). New evidence adds three things the skill does not cover. First, the source later refused a retry with HTTP 403 on all endpoints (message:assistant-msg-b670d47d-c276-d47c-a127-c3938e111831), so HTTP 403 belongs in the stop list beside rate limits and timeouts. Second, the user asked for as many clips as the strong moments support (message:bf0985d9-728a-4702-abd1-88654a1f2de5) after an initial subtitled reels request (message:7e0ed0e6-2c87-4454-9ef4-5ce88c9ea2a4), so the plan step should expand the batch instead of fixing a count. Third, the user shared a reference clip (message:5b4d8295-06b2-4f30-9236-3f26137a3348), the assistant described its facecam, hook banner and subtitle layout from viewing it (message:assistant-msg-1a9c1562-7070-4521-bed3-ca58fea7ef3d), stated the enlargement and timing limits (message:assistant-msg-9d1eddd3-3cf4-4cec-b048-674cbf3717e8), and the user then chose that style for all reels (message:0207b66f-8eb5-4efe-a433-990eca87f010) with subtitles removed (message:53f30e5f-b3b6-49c1-85de-2ef41f907e33), superseding the subtitle default the skill currently teaches. The reference work also hit a failed browser.browse call (runtime-child:5ea63a8c-d8b0-5b29-8c96-7145f7384e6b) and a failed exec call (runtime-child:97bf1154-d864-54c0-bc8d-02617778ebee), which supports viewing a reference before downloading it and proving a new style on one existing part first. Skill search found no other skill covering this workflow beyond the managed skill itself, transcription and social publishing, so the fix updates the managed skill rather than adding a near duplicate. The update keeps the fast path and early subtitle files, and adds confirming layout and subtitle choice up front, matching a shared reference style, and supporting a no subtitle hook banner version.
+  review_after: 2026-12-09T12:51:01.532131+00:00
+  reviewed_at: 2026-11-25T12:51:01.532131+00:00
+  run_id: sirun_ceb0bb527b43496481c04f4ae805d2aa
