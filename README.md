@@ -23,7 +23,7 @@ Repo ini berisi kode dan dokumen dari proyek-proyek yang sudah saya kerjakan. Fi
 
 ## Jasa yang saya tawarkan
 
-- Edit Shorts/Reels dari video panjang (streamer, podcast, gameplay) — paket per 10/20 klip, siap upload dengan judul dan caption
+- Edit Shorts/Reels dari video panjang (streamer, podcast, gameplay) — paket per 10/20/30 klip, siap upload dengan judul dan caption. Daftar harga lengkap: [JASA.md](JASA.md)
 - Video animasi narasi / explainer pendek
 - Web mini / landing page untuk UMKM dan creator
 
